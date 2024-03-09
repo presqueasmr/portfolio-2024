@@ -5,8 +5,9 @@ taxonomy: DEVELOPMENT
 slug: bouillotte-et-culotte
 dividerDate: ..........................................
 dividerTaxonomy: ...................................
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
 footer_version: sticky
+nextProject: we_bike/
 content:
   titleSection:
   - taxonomy: DEVELOPMENT

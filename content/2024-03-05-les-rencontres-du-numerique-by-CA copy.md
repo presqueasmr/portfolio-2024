@@ -2,11 +2,12 @@
 title: Rencontres du numérique by CA
 date: 2024-03-05
 taxonomy: UX.UI DESIGN
-slug: papa-s-vanitas
+slug: rencontres-num
 dividerDate: ......................................
 dividerTaxonomy: ...............................
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: rencontres_by_CA/thumbnail_rencontres_by_CA.png
 footer_version: sticky
+nextProject: bouillotte-et-culotte/
 content:
   titleSection:
   - taxonomy: UX.UI DESIGN

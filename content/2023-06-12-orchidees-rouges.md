@@ -1,12 +1,13 @@
 ---
-title: 1 Minute 
+title: 1 min dans le monde 
 date: 2023-06-12
 taxonomy: ILLUSTRATION
 slug: 1-minute-dans-le-monde
 dividerDate: ..........................................
 dividerTaxonomy: ...............................
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: 1min_dans_le_monde/thumbnail_1min.png
 footer_version: sticky
+nextProject: raclette-sim/
 content:
   titleSection:
   - taxonomy: ILLUSTRATION

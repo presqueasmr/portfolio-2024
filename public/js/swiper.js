@@ -1,4 +1,5 @@
 const track = document.querySelector(".project_wrapper");
+// const images = track.querySelectorAll(".project_wrapper__container").querySelectorAll(".img-wrapper");
 
 window.onmousedown = e => {
   track.dataset.mouseDownAt = e.clientX;
@@ -17,14 +18,21 @@ window.onmousemove = e => {
   track.dataset.percentage = nextPercentage;
   
   track.style.transform = `translate(${nextPercentage}%, -30%)`;
-
-  for(const image of track.getElementsByClassName("img-wrapper")){
-    image.style.objectPosition = `${nextPercentage + 100 } 35%`
+  
+  // images.style.backgroundColor = `aliceblue`;
+  
+  for(const container of track.querySelectorAll(".project_wrapper__container")){
+    for(const image of container.querySelectorAll(".img-wrapper")){
+      image.style.objectPosition = `${nextPercentage + 100 }%, 50%`;
+      // console.log(`${nextPercentage + 100 }%, 50%`);
+      // image.style.backgroundColor = `red`;
+    }
   }
-
   track.animate({
     transform: `translate(${nextPercentage}%, -30%)`
   }, { duration: 1200, fill: "forwards"});
+
+  
 }
 
 window.onmouseup = e => {

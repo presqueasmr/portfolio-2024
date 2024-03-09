@@ -1,4 +1,5 @@
 {{ define "main" }}
+    
     <section>
         <div class="title">
             <ul>
@@ -23,7 +24,8 @@
         
         <a href="" class="external-link">OPEN THE PROJECT</a>
         <div class="cover_image">
-            <img src="" alt="">
+            {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}
+            <img src="{{ $image }}" alt="">
         </div>
         <div class="problem__container">
             <h3>PROBLÉMATIQUE</h3>
@@ -159,10 +161,10 @@
         </ul>
     </section>
 
-    {{/*  {{ $link := printf "%s" .Params.nextProject }}
-    <p>{{ $link }}</p>
-    <a class="btn-next" href="{{ relref  $link }} }}">
+    
+    <a class="btn-next" href="{{ printf "/%s" .Params.nextProject }}">
         <span>Next project : VR.Valeriia</span> 
-        <img src="" alt="">  */}}
+        <img src="" alt="">
     </a>
+    
 {{ end }}

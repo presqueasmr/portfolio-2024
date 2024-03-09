@@ -5,8 +5,9 @@ taxonomy: GAME DESIGN - ILLUSTRATION
 slug: souvenirs-orphee
 dividerDate: ..........................................
 dividerTaxonomy: ........
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: souvenirs_orphee/thumbnail_souvenirs_orphee.png
 footer_version: sticky
+nextProject: 1-minute-dans-le-monde/
 content:
   titleSection:
   - taxonomy: GAME DESIGN - ILLUSTRATION

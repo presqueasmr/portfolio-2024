@@ -5,8 +5,9 @@ taxonomy: 360°
 slug: raclette-sim
 dividerDate: ..........................................
 dividerTaxonomy: .............................................
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: raclette/thumbnail_raclette.png
 footer_version: sticky
+nextProject: bogundy/
 content:
   titleSection:
   - taxonomy: 360°

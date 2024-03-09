@@ -5,9 +5,9 @@ taxonomy: UX.UI DESIGN
 slug: valeriia
 dividerDate: ..........................................
 dividerTaxonomy: ................................
-thumbnail: valeriia/valeriia.svg
+thumbnail: valeriia/thumbnail_valeriia.png
 footer_version: sticky
-nextProject: 2022-10-18-we-bike.md
+nextProject: papa-s-vanitas/
 content:
   titleSection:
     - taxonomy: DEVELOPMENT - UX.DESIGN

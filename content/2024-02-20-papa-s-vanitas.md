@@ -5,8 +5,9 @@ taxonomy: GAME DESIGN
 slug: papa-s-vanitas
 dividerDate: ..........................................
 dividerTaxonomy: ...............................
-thumbnail: papa-s-vanitas/papa-s-vanitas.svg
+thumbnail: papa-s-vanitas/thumbnail_papa-s-vanitas.png
 footer_version: sticky
+nextProject: rencontres-num/
 content:
   titleSection:
   - taxonomy: GAME DESIGN
