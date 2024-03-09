@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://65ec7bfd0045e6b4176f0d53--amsr-portfolio-2024.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Portfolio AMSR 2024'
 [params]
 name = 'a lover'
