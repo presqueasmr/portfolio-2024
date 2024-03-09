@@ -1,0 +1,168 @@
+{{ define "main" }}
+    <section>
+        <div class="title">
+            <ul>
+                {{ with .Params.content.titleSection }}
+                    {{ range . }}   
+                        {{ with .taxonomy }}
+                            <li> {{ . }} </li>
+                        {{ end }}
+                        {{ with .people }}
+                            <li> {{ . }} PEOPLE </li>
+                        {{ end }}
+                        {{ with .duration }}
+                            <li> {{ . }} WEEKS </li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                <li>{{ .Date.Format "02.01.2006" }}</li>
+            </ul>
+            <h1>{{ .Title }}</h1>
+        </div>
+        
+        
+        <a href="" class="external-link">OPEN THE PROJECT</a>
+        <div class="cover_image">
+            <img src="" alt="">
+        </div>
+        <div class="problem__container">
+            <h3>PROBLÉMATIQUE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Tortor semper mus sit nullam. Lorem ipsum dolor sit amet consectetur. Tortor semper mus sit nullam.amet consectetur. Tortor semper mus sit nullam amet consectetur. Tortor semper mus sit nullam</p>
+        </div>
+    </section>
+
+    <section>
+        <h5>LET'S THINK FOR 5 MINUTES...</h5>
+        <div class="think_container">
+            <div>
+                <h2>MAIN PAINS</h2>
+                <ul>
+                    {{ with .Params.content.thinkingSection }}
+                        {{ range .pains }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+            <div>
+                <h2>SOLUTIONS</h2>
+                <ul>
+                    {{ with .Params.content.thinkingSection }}
+                        {{ range .solutions }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section>
+        <h5>LET'S US COOK...</h5>
+        <h2>SOLUTIONS</h2>
+        <div class="process__wrapper">
+                {{ with .Params.content.processSection }}
+                {{ range . }}
+                    
+                    <div class="process__item">
+                        
+                        <div class="process__text">
+                            {{ range .percent }}
+                                    {{ range .top }}
+                                        {{ with .icon }}
+                                            <img src="{{ printf "/icon/%s" .  }}" alt="pourcentage">
+                                        {{ end }}
+                                        {{ with .text }}
+                                            <p>{{ . }}</p>
+                                        {{ end }}
+                                    {{ end }}
+                            {{ end }}
+                        </div>
+                        {{ range .percent }}
+                            {{ with .img }}
+                                {{ $imagePercent := resources.Get (printf "img/%s" .) }}
+                                <img src="{{ $imagePercent.RelPermalink }}" alt="">
+                            {{ end }}
+                        {{ end }}
+                    </div>
+            
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+
+    <section>
+        <h5>TADAA ! THE 1 MILLION DOLLAR IDEA... </h5>
+        <h2>OVERVIEW & ASSETS</h2>
+        <div class="gallery__container">
+            {{ with .Params.content.gallerySection }}
+            <div class="top">
+                <div class="left-side">
+                    <h3>Logo</h3>
+                    <div>
+                        {{ range .logo }}
+                            <img src="{{ printf "/icon/%s" . }}" alt="">
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="center-side">
+                    <h3>Screens</h3>
+                    <div>
+                        {{ range .screenCenter }}
+                            <img src="{{ printf "/img/%s" . }}" alt="">
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="right-side">
+                    <h3>Screens</h3>
+                    <div>
+                        {{ range .screenRight }}
+                            <img src="{{ printf "/img/%s" . }}" alt="">
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="assets-container left">
+                    <h3>Assets</h3>
+                    <div>
+                        {{ range .assets }}
+                            <img src="{{ printf "/img/%s" . }}" alt="">
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="assets-container right">
+                    <h3>Assets</h3>
+                    <div>
+                        {{ range .assets }}
+                            <img src="{{ printf "/img/%s" . }}" alt="">
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section>
+        <img src="/icon/hand-ok.svg" alt="">
+        <h5>Big brain</h5>
+        <h2>What I learned</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+
+    {{ $link := printf "%s" .Params.nextProject }}
+    <p>{{ $link }}</p>
+    <a class="btn-next" href="{{ relref  $link }} }}">
+        <span>Next project : VR.Valeriia</span> 
+        <img src="" alt="">
+    </a>
+{{ end }}

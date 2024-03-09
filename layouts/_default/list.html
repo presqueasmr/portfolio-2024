@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <div class="project_wrapper" data-mouse-down-at="0" data-prev-percentage="0" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" >
+    {{ range .Pages }}
+        <div class="project_wrapper__container" draggable="false">
+            {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}
+             
+                <img src="{{ $image.RelPermalink }}" class ="img-wrapper" alt="" draggable="false">
+            <h2 draggable="false" ><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div class="project_wrapper__tag-container">
+                <h5>Date</h5>
+                <span>{{ .Params.DividerDate }}</span>
+                <h4>{{ .Params.Date.Format "2006.01.02" }}</h4>
+            </div>
+            <div class="project_wrapper__date-container">
+                <h5>Category</h5>
+                <span>{{ .Params.dividerTaxonomy }}</span>
+                <h4>{{ .Params.Taxonomy }}</h4>
+            </div>
+            <a href="{{ .Permalink }}" class="to-project">[ Découvrir ]</a> 
+        </div>
+    {{ end }}
+    </div>
+{{ end }}
