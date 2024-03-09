@@ -1,0 +1,27 @@
+# Ignore Hugo generated files
+/public/
+/resources/
+
+# Ignore Hugo configuration files
+/config.toml
+/config.yaml
+/config.json
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled files
+*.exe
+*.dll
+*.out
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Hugo cache files
+/resources/_gen
+/resources/_template_cache
+
+# Ignore environment-specific files
+.env

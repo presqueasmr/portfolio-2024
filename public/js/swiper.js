@@ -1,35 +1,33 @@
-const multiplier = {
-    translate: .1,
-    rotate: .01
+const track = document.querySelector(".project_wrapper");
+
+window.onmousedown = e => {
+  track.dataset.mouseDownAt = e.clientX;
+  console.log(track.dataset.mouseDownAt)
 }
 
-new Swiper('.project-wrapper', {
-    slidesPerView: 'auto',
-    spaceBetween: 90,
-    centeredSlides: true,
-    loop: true,
-    grabCursor: true
-})
+window.onmousemove = e => {
+  if (track.dataset.mouseDownAt === "0") return;
 
-function calculateWheel() {
-    const slides = document.querySelectorAll('.project-wrapper__container')
-    slides.forEach((slide, i) => {
-        const rect = slide.getBoundingClientRect()
-        const r = window.innerWidth * .5 - (rect.x + rect.width * .5)
-        let ty = Math.abs(r) * multiplier.translate - rect.width * multiplier.translate
+  const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+    maxDelta = window.innerWidth / 2;
 
-        if (ty < 0) {
-            ty = 0
-        }
-        const transformOrigin = r < 0 ? 'left top' : 'right top'
-        slide.style.transform = `translate(0, ${ty}px) rotate(${-r * multiplier.rotate}deg)`
-        slide.style.transformOrigin = transformOrigin
-    })
+  const percentage = (mouseDelta / maxDelta) * -100;
+
+  nextPercentage = Math.min(Math.max(parseFloat(track.dataset.prevPercentage) + percentage, -100), 0);
+  track.dataset.percentage = nextPercentage;
+  
+  track.style.transform = `translate(${nextPercentage}%, -30%)`;
+
+  for(const image of track.getElementsByClassName("img-wrapper")){
+    image.style.objectPosition = `${nextPercentage + 100 } 35%`
+  }
+
+  track.animate({
+    transform: `translate(${nextPercentage}%, -30%)`
+  }, { duration: 1200, fill: "forwards"});
 }
 
-function raf() {
-    requestAnimationFrame(raf)
-    calculateWheel()
+window.onmouseup = e => {
+  track.dataset.mouseDownAt = "0";
+  track.dataset.prevPercentage = track.dataset.percentage;
 }
-
-raf();
