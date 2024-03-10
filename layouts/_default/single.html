@@ -40,7 +40,7 @@
                 <ul>
                     {{ with .Params.content.thinkingSection }}
                         {{ range .pains }}
-                            <li>{{ . }}</li>
+                            <li class="pains">{{ . }}</li>
                         {{ end }}
                     {{ end }}
                 </ul>
@@ -50,7 +50,7 @@
                 <ul>
                     {{ with .Params.content.thinkingSection }}
                         {{ range .solutions }}
-                            <li>{{ . }}</li>
+                            <li class="solutions">{{ . }}</li>
                         {{ end }}
                     {{ end }}
                 </ul>
@@ -61,7 +61,7 @@
     
     <section>
         <h5>LET'S US COOK...</h5>
-        <h2>SOLUTIONS</h2>
+        <h2 style="margin-bottom: 3rem;">SOLUTIONS</h2>
         <div class="process__wrapper">
                 {{ with .Params.content.processSection }}
                 {{ range . }}
@@ -125,6 +125,7 @@
                 </div>
             </div>
             <div class="bottom">
+                {{ if eq .assets " "}}
                 <div class="assets-container left">
                     <h3>Assets</h3>
                     <div>
@@ -133,6 +134,7 @@
                         {{ end }}
                     </div>
                 </div>
+                {{ end }}
                 {{ if eq .smallAssets " "}}
                 <div class="assets-container right">
                     <h3>Assets</h3>

@@ -1,6 +1,6 @@
 ---
 title: Rencontres du numérique by CA
-date: 2024-03-05
+date: 2022-03-05
 taxonomy: UX.UI DESIGN
 slug: rencontres-num
 dividerDate: ......................

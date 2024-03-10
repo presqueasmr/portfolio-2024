@@ -6,8 +6,11 @@ slug: valeriia
 dividerDate: ........................
 dividerTaxonomy: ..................
 thumbnail: valeriia/thumbnail_valeriia.png
-footer_version: sticky
-nextProject: papa-s-vanitas/
+coverImage: rencontres_by_CA/thumbnail_detail.svg
+
+
+problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"
+
 content:
   titleSection:
     - taxonomy: DEVELOPMENT - UX.DESIGN
@@ -57,4 +60,11 @@ content:
     assets:
       - icon-80-percent.svg
       - icon-80-percent.svg
+
+
+nextProject: papa-s-vanitas/
+nextProjectName: Bouillotte & Culotte
+nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+
+footer_version: sticky
 ---

@@ -6,8 +6,11 @@ slug: papa-s-vanitas
 dividerDate: .......................
 dividerTaxonomy: .................
 thumbnail: papa-s-vanitas/thumbnail_papa-s-vanitas.png
-footer_version: sticky
-nextProject: rencontres-num/
+
+
+problematic: "On the occasion of the 'Nuit Européenne des musées', the MUSBA and MMI decided to collaborate once again ! Our mission as MMI student was to create a full interface on a very large touch table. Divided in 6 groupes and a QA group, we had to create 5 different educational interactive experiences. We created the game 'Papa's Vanitas'."
+
+
 content:
   titleSection:
   - taxonomy: GAME DESIGN
@@ -15,47 +18,57 @@ content:
   - duration: 2
   thinkingSection:
     pains:
-      - Première pain
-      - Deuxième pain
-      - Troisième pain
+      - The touch table is very large and is not device we are used to work on.
+      - Our interactive ingredients have a double action <touch + drag>.
+      - Keep in mind that the main target audience is  older. 
+      - Work with 50 people and still keep a unity throughout the experiences.
     solutions:
-      - Première soluc
-      - 2eme soluc
-      - 3eme soluc
+      - Test on the actual device.
+      - <TEST! TEST! TEST!> Make unbiased users try each iteration of our design.
+      - Refer to games usually played by elders <like Candy Crush>.
+      - A common design system for global interactions <sound, homepage...>.
   processSection:
     - percent:
       - top:
         - icon: icon-20-percent.svg
-        - text: "Je suis le premier texte de PAPA."
-      - img: 
+        - text: "We chose to focus on vanity paintings and base the mecanics on 'Papa's Pizzeria' games. The player would recreate Jan Van KESSEL's 'Natures morte aux crustacés', guided by a little doodled chef : Jeff Deuvreve."
+      - img: papa-s-vanitas/inspiration.svg
     - percent:
       - top:
         - icon: icon-50-percent.svg
-        - text: "Je suis le second texte de PAPA."
-      - img: valeriia/percent50.gif
+        - text: "Then, started wireframing to test an interface on the real device. We had only one hour to test the touch table. We also started to test the native js touch properties."
+      - img: papa-s-vanitas/wireframe.jpg
     - percent:
       - top:
         - icon: icon-80-percent.svg 
-        - text: "Je suis le troisième texte de PAPA."
-      - img: 
+        - text: "We decided to focus on 2 aspects of vanity painting : composition & symbolisms. We also chose to keep doodles as our art direction. We hesitated between a free composition, a guided ingredient-by-ingredient composition and a mix of the two. We landed on the mix."
+      - img: papa-s-vanitas/steps.svg
     - percent:
       - top:
         - icon: icon-100-percent.svg 
-        - text: "Je suis le quatrieme texte de PAPA."
-      - img: 
+        - text: "After a few user tests, we landed on a simpler interface, without knife and pitcher, focusing all the interaction on the bottom half of the screen."
+      - img: papa-s-vanitas/final_scene.svg
   gallerySection:
     logo:
-      - icon-20-percent.svg
-      - icon-50-percent.svg
-      - icon-100-percent.svg
+      - papa-s-vanitas/asset_jeff.svg
+      - papa-s-vanitas/asset_tulip.svg
+      - papa-s-vanitas/asset_prune.svg
+      - papa-s-vanitas/asset_lemon.svg
+      - papa-s-vanitas/asset_butterfly.svg
     screenCenter: 
-      - valeriia/percent20.png
-      - valeriia/percent20.png
+      - papa-s-vanitas/screen_top_left.svg
+      - papa-s-vanitas/screen_bottom_left.svg
     screenRight:
-      -  valeriia/percent20.png
-      - valeriia/percent20.png
+      - papa-s-vanitas/screen_right_2.svg
+      - papa-s-vanitas/screen_top_right.svg 
+      - papa-s-vanitas/screen_bottom_right.svg
+      - papa-s-vanitas/screen_right_4.svg
     assets:
-      - icon-80-percent.svg
-      - icon-80-percent.svg
+
+
+nextProject: rencontres-num/
+nextProjectName: Bouillotte & Culotte
+nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+
+footer_version: sticky
 ---
-I am the third blog post oulala

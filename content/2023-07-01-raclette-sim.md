@@ -6,8 +6,12 @@ slug: raclette-sim
 dividerDate: .......................
 dividerTaxonomy: ........................
 thumbnail: raclette/thumbnail_raclette.png
-footer_version: sticky
-nextProject: bogundy/
+
+
+problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"
+
+
+
 content:
   titleSection:
   - taxonomy: 360°
@@ -57,5 +61,10 @@ content:
     assets:
       - icon-80-percent.svg
       - icon-80-percent.svg
+
+nextProject: bogundy/
+nextProjectName: Bouillotte & Culotte
+nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+
+footer_version: sticky
 ---
-I am the third blog post oulala

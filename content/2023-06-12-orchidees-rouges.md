@@ -6,8 +6,11 @@ slug: 1-minute-dans-le-monde
 dividerDate: ..................
 dividerTaxonomy: ................
 thumbnail: 1min_dans_le_monde/thumbnail_1min.png
-footer_version: sticky
-nextProject: raclette-sim/
+
+
+problematic: "The MMI Wrokshops are a 3 weeks-long hackathon that mixes all the students. The rules are : develop a concept through a site or an app and/or social media, that responds to an important SOCIAL or SOCIETAL issue. The project has to be innovating (never done before), scalable, useful and self-maintaining. We chose the subject of ENDOMETRIOSIS"
+
+
 content:
   titleSection:
   - taxonomy: ILLUSTRATION
@@ -57,5 +60,11 @@ content:
     assets:
       - icon-80-percent.svg
       - icon-80-percent.svg
+
+
+nextProject: raclette-sim/
+nextProjectName: We Bike
+nextProjectthumbnail: we_bike/thumbnail_we_bike.png
+
+footer_version: sticky
 ---
-I am the third blog post oulala
