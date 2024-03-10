@@ -23,9 +23,9 @@ window.onmousemove = e => {
   
   for(const container of track.querySelectorAll(".project_wrapper__container")){
     for(const image of container.querySelectorAll(".img-wrapper")){
-      image.style.objectPosition = `${nextPercentage + 100 }%, 50%`;
-      // console.log(`${nextPercentage + 100 }%, 50%`);
-      // image.style.backgroundColor = `red`;
+      image.animate({
+        objectPosition: `${90 + nextPercentage}% center`
+      }, { duration: 1300, fill: "forwards" });
     }
   }
   track.animate({

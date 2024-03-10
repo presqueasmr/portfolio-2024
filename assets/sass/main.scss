@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     height: 100vh;
     width: 100vw;
-    
+    background-color: #f1f1f1;
     color: $black;
   }
 
@@ -20,43 +20,47 @@ body {
 
   h1{
     font-size: $h1-size;
-    font-family: $title-font;
+    font-family: $Manrope-font;
     
   }
 
   h2{
     font-size: $h2-size;
-    font-family: $title-font;
+    font-family: $Manrope-font;
     margin-bottom: 1rem;
     
   }
 
   h3{
-    font-family: $title-font;
+    font-family: $Dot16-font;
     font-size: $h3-size;
     margin-bottom: 0.5rem;
     opacity: .65;
   }
 
   h4{
-    font-family: $corps-font;
+    font-family: $Dot16-font;
     font-size: $p-medium;
   }
 
   h5{
-    font-family: $corps-font;
+    font-family: $Dot16-font;
     font-size: $p-small;
     opacity: .65;
   }
 
   p, li{
-    font-family: $corps-font;
+    font-family: $Manrope-font;
+  }
+
+  a, span{
+    font-family: $Dot16-font;
     
   }
 
   p{
     font-size: $p-small;
-    letter-spacing: 1.25px;
+    letter-spacing: .25px;
   }
 
   li{
@@ -74,6 +78,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
+    
+    span{
+      font-size: $p-small;
+    }
+    
     .logo_container{
       position: absolute;
       left: calc(50vw - (90px / 2));

@@ -2,9 +2,9 @@
     <div class="project_wrapper" data-mouse-down-at="0" data-prev-percentage="0" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" >
     {{ range .Pages }}
         <div class="project_wrapper__container" draggable="false">
-                {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}
-                <img src="{{ $image.RelPermalink }}" class ="img-wrapper" alt="" draggable="false">
-            <h2 draggable="false" ><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                {{/*  {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}  */}}
+                <img src="{{ printf "/img/%s" .Params.thumbnail }}" class ="img-wrapper" alt="" draggable="false">
+                <a href="{{ .Permalink }}"><h2 class="card-title" draggable="false" >{{ .Title }}</h2></a>
             <div class="project_wrapper__tag-container">
                 <h5>Date</h5>
                 <span>{{ .Params.DividerDate }}</span>

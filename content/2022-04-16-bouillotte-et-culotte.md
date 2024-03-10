@@ -3,11 +3,13 @@ title: Bouillotte & Culotte
 date: 2022-04-16
 taxonomy: DEVELOPMENT
 slug: bouillotte-et-culotte
-dividerDate: ..........................................
-dividerTaxonomy: ...................................
+dividerDate: ...................
+dividerTaxonomy: ................
 thumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
 footer_version: sticky
-nextProject: we_bike/
+
+problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"
+
 content:
   titleSection:
   - taxonomy: DEVELOPMENT
@@ -57,5 +59,8 @@ content:
     assets:
       - icon-80-percent.svg
       - icon-80-percent.svg
+  
+nextProject: we_bike/
+nextProjectName: We Bike
+nextProjectthumbnail: we_bike/thumbnail_we_bike.png
 ---
-I am the third blog post oulala

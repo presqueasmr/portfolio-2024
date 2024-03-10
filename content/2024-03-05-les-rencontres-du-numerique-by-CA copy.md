@@ -3,11 +3,14 @@ title: Rencontres du numérique by CA
 date: 2024-03-05
 taxonomy: UX.UI DESIGN
 slug: rencontres-num
-dividerDate: ......................................
-dividerTaxonomy: ...............................
+dividerDate: ......................
+dividerTaxonomy: ..................
 thumbnail: rencontres_by_CA/thumbnail_rencontres_by_CA.png
-footer_version: sticky
-nextProject: bouillotte-et-culotte/
+coverImage: rencontres_by_CA/thumbnail_detail.svg
+
+
+problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"
+
 content:
   titleSection:
   - taxonomy: UX.UI DESIGN
@@ -15,47 +18,63 @@ content:
   - duration: 4
   thinkingSection:
     pains:
-      - Première pain
-      - Deuxième pain
-      - Troisième pain
+      - A tricky "pack" system for registration
+      - A specific "University" program for VIPs
+      - A new event unknown to the public
     solutions:
-      - Première soluc
-      - 2eme soluc
-      - 3eme soluc
+      - Differentiate with a registration page encapsulating all the packs
+      - Multiply CTAs with a specific University page and homepage section
+      - Show pratical infos & the main message (spark dialog) in the header
   processSection:
     - percent:
       - top:
         - icon: icon-20-percent.svg
-        - text: "Je suis le premier texte de PAPA."
-      - img: 
+        - text: "First steps : Analyse of the design brief and breakdown of the needs and arborescence of the future site."
+      - img: rencontres_by_CA/feature_breakdown.png
     - percent:
       - top:
         - icon: icon-50-percent.svg
-        - text: "Je suis le second texte de PAPA."
-      - img: valeriia/percent50.gif
+        - text: "Let's do a little benchmark of events' promotional sites. The client suggested 'Les entretions du Royaumont'."
+      - img: rencontres_by_CA/benchmark.png
     - percent:
       - top:
         - icon: icon-80-percent.svg 
-        - text: "Je suis le troisième texte de PAPA."
-      - img: 
+        - text: "The main task was to design all the flows and prototype them at the same time in order to submit them to the client as fast as possible for approval."
+      - img: rencontres_by_CA/maquette.png
     - percent:
       - top:
         - icon: icon-100-percent.svg 
-        - text: "Je suis le quatrieme texte de PAPA."
-      - img: 
+        - text: "Finally, we made many iterations with big and small tweaks to respond to client feedbacks"
+      - img: rencontres_by_CA/tweaks.png
   gallerySection:
     logo:
-      - icon-20-percent.svg
-      - icon-50-percent.svg
-      - icon-100-percent.svg
+      - rencontres_by_CA/asset_firework.svg
+      - rencontres_by_CA/asset_calendar.svg
+      - rencontres_by_CA/asset_clock.svg
     screenCenter: 
-      - valeriia/percent20.png
-      - valeriia/percent20.png
+      - rencontres_by_CA/homepage.gif
+      - rencontres_by_CA/programme_v2.gif
     screenRight:
-      -  valeriia/percent20.png
-      - valeriia/percent20.png
+      - rencontres_by_CA/screen_right_1.svg
+      - rencontres_by_CA/screen_right_2.svg
+      - rencontres_by_CA/screen_right_3.svg
+      - rencontres_by_CA/screen_right_4.svg
     assets:
-      - icon-80-percent.svg
-      - icon-80-percent.svg
+      - rencontres_by_CA/screen_phone_1.svg
+      - rencontres_by_CA/screen_phone_2.svg
+      - rencontres_by_CA/screen_phone_3.svg
+      - rencontres_by_CA/screen_phone_4.svg
+      - rencontres_by_CA/screen_phone_5.svg
+    samllAssets:
+
+  learningSection:
+      - Working with big companies implies a lot of back and forth in order to arrive at a satisfactory product for everyone envolved
+      - Keeping distance with my work in order to meet the client's wants and needs 
+      - Working in close pair
+  
+nextProject: bouillotte-et-culotte/
+nextProjectName: Bouillotte & Culotte
+nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+
+footer_version: sticky
 ---
-I am the third blog post oulala

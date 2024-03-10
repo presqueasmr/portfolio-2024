@@ -6,17 +6,17 @@
                 {{ with .Params.content.titleSection }}
                     {{ range . }}   
                         {{ with .taxonomy }}
-                            <li> {{ . }} </li>
+                            <li><span>{{ . }}</span></li>
                         {{ end }}
                         {{ with .people }}
-                            <li> {{ . }} PEOPLE </li>
+                            <li><span>{{ . }} PEOPLE </span></li>
                         {{ end }}
                         {{ with .duration }}
-                            <li> {{ . }} WEEKS </li>
+                            <li><span>{{ . }} WEEKS </span></li>
                         {{ end }}
                     {{ end }}
                 {{ end }}
-                <li>{{ .Date.Format "02.01.2006" }}</li>
+                <li><span>{{ .Date.Format "02.01.2006" }}</span></li>
             </ul>
             <h1>{{ .Title }}</h1>
         </div>
@@ -24,12 +24,11 @@
         
         <a href="" class="external-link">OPEN THE PROJECT</a>
         <div class="cover_image">
-            {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}
-            <img src="{{ $image }}" alt="">
+            <img src="{{ printf "/img/%s" .Params.thumbnail }}" alt="">
         </div>
         <div class="problem__container">
             <h3>PROBLÉMATIQUE</h3>
-            <p>Lorem ipsum dolor sit amet consectetur. Tortor semper mus sit nullam. Lorem ipsum dolor sit amet consectetur. Tortor semper mus sit nullam.amet consectetur. Tortor semper mus sit nullam amet consectetur. Tortor semper mus sit nullam</p>
+            <p><span>{{ .Params.problematic }}</span></p>
         </div>
     </section>
 
@@ -73,7 +72,7 @@
                             {{ range .percent }}
                                     {{ range .top }}
                                         {{ with .icon }}
-                                            <img src="{{ printf "/icon/%s" .  }}" alt="pourcentage">
+                                            <img src="{{ printf "/icon/%s" .  }}" alt="pourcentage" class="percentage">
                                         {{ end }}
                                         {{ with .text }}
                                             <p>{{ . }}</p>
@@ -83,8 +82,8 @@
                         </div>
                         {{ range .percent }}
                             {{ with .img }}
-                                {{ $imagePercent := resources.Get (printf "img/%s" .) }}
-                                <img src="{{ $imagePercent.RelPermalink }}" alt="">
+                                {{/*  {{ $imagePercent := resources.Get (printf "img/%s" .) }}  */}}
+                                <img src="{{ printf "/img/%s" . }}" alt="">
                             {{ end }}
                         {{ end }}
                     </div>
@@ -101,10 +100,10 @@
             {{ with .Params.content.gallerySection }}
             <div class="top">
                 <div class="left-side">
-                    <h3>Logo</h3>
+                    <h3>Icons</h3>
                     <div>
                         {{ range .logo }}
-                            <img src="{{ printf "/icon/%s" . }}" alt="">
+                            <img src="{{ printf "/img/%s" . }}" alt="">
                         {{ end }}
                     </div>
                 </div>
@@ -134,6 +133,7 @@
                         {{ end }}
                     </div>
                 </div>
+                {{ if eq .smallAssets " "}}
                 <div class="assets-container right">
                     <h3>Assets</h3>
                     <div>
@@ -142,6 +142,7 @@
                         {{ end }}
                     </div>
                 </div>
+                {{ end }}
             </div>
             {{ end }}
 
@@ -155,16 +156,16 @@
         <h5>Big brain</h5>
         <h2>What I learned</h2>
         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            {{ range .Params.content.learningSection }}
+                <li><span>---> {{ . }}</span></li>
+            {{ end }}
         </ul>
     </section>
 
     
     <a class="btn-next" href="{{ printf "/%s" .Params.nextProject }}">
-        <span>Next project : VR.Valeriia</span> 
-        <img src="" alt="">
+        <span>Next project : {{ .Params.nextProjectName }}</span> 
+        <img src="{{ printf "/img/%s" .Params.nextProjectthumbnail }}" alt="" width="90px">
     </a>
     
 {{ end }}
