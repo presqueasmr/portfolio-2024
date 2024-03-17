@@ -1,5 +1,5 @@
 # Ignore Hugo generated files
-/public/
+
 /resources/
 
 # Ignore Hugo configuration files
