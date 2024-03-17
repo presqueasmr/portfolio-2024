@@ -4,7 +4,7 @@
         <div class="project_wrapper__container" draggable="false">
                 {{/*  {{ $image := resources.Get (printf "img/%s" .Params.thumbnail) }}  */}}
                 <img src="{{ printf "/img/%s" .Params.thumbnail }}" class ="img-wrapper" alt="" draggable="false">
-                <a href="{{ .Permalink }}"><h2 class="card-title" draggable="false" >{{ .Title }}</h2></a>
+                <a href="{{ .RelPermalink }}"><h2 class="card-title" draggable="false" >{{ .Title }}</h2></a>
             <div class="project_wrapper__tag-container">
                 <h5>Date</h5>
                 <span>{{ .Params.DividerDate }}</span>
@@ -15,7 +15,7 @@
                 <span>{{ .Params.dividerTaxonomy }}</span>
                 <h4>{{ .Params.Taxonomy }}</h4>
             </div>
-            <a href="{{ .Permalink }}" class="to-project">[ Découvrir ]</a> 
+            <a href="{{ .RelPermalink }}" class="to-project">[ Découvrir ]</a> 
         </div>
     {{ end }}
     </div>
