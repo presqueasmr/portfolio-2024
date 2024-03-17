@@ -32,7 +32,7 @@ content:
       - top:
         - icon: icon-20-percent.svg
         - text: "We chose to focus on vanity paintings and base the mecanics on 'Papa's Pizzeria' games. The player would recreate Jan Van KESSEL's 'Natures morte aux crustacés', guided by a little doodled chef : Jeff Deuvreve."
-      - img: papa-s-vanitas/inspiration.svg
+      - img: papa-s-vanitas/inspiration.jpg
     - percent:
       - top:
         - icon: icon-50-percent.svg
@@ -42,12 +42,12 @@ content:
       - top:
         - icon: icon-80-percent.svg 
         - text: "We decided to focus on 2 aspects of vanity painting : composition & symbolisms. We also chose to keep doodles as our art direction. We hesitated between a free composition, a guided ingredient-by-ingredient composition and a mix of the two. We landed on the mix."
-      - img: papa-s-vanitas/steps.svg
+      - img: papa-s-vanitas/steps.jpg
     - percent:
       - top:
         - icon: icon-100-percent.svg 
         - text: "After a few user tests, we landed on a simpler interface, without knife and pitcher, focusing all the interaction on the bottom half of the screen."
-      - img: papa-s-vanitas/final_scene.svg
+      - img: papa-s-vanitas/final_scene.jpg
   gallerySection:
     logo:
       - papa-s-vanitas/asset_jeff.svg
@@ -56,19 +56,23 @@ content:
       - papa-s-vanitas/asset_lemon.svg
       - papa-s-vanitas/asset_butterfly.svg
     screenCenter: 
-      - papa-s-vanitas/screen_top_left.svg
-      - papa-s-vanitas/screen_bottom_left.svg
+      - papa-s-vanitas/asset_1.jpg
+      - papa-s-vanitas/asset_2.jpg
     screenRight:
-      - papa-s-vanitas/screen_right_2.svg
-      - papa-s-vanitas/screen_top_right.svg 
-      - papa-s-vanitas/screen_bottom_right.svg
-      - papa-s-vanitas/screen_right_4.svg
+      - papa-s-vanitas/asset_3.jpg
+      - papa-s-vanitas/asset_4.jpg 
+      - papa-s-vanitas/asset_5.jpg
+      - papa-s-vanitas/asset_6.jpg
     assets:
 
+  learningSection:
+            - Working with 50 people on one and only project
+            - Designing and developing on an unusual device (taking into account this constraint or chance...)
+            - Never be certain of the quality of the UX/game design preventively and always test each iteration (be humble)
 
 nextProject: rencontres-num/
-nextProjectName: Bouillotte & Culotte
-nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+nextProjectName: Rencontres du Numérique by CA
+nextProjectthumbnail: rencontres_by_CA/next_image.svg
 
 footer_version: sticky
 ---

@@ -47,22 +47,25 @@ content:
       - img: bouillotte_et_culotte/presentation.svg
   gallerySection:
     logo:
-      - icon-20-percent.svg
-      - icon-50-percent.svg
-      - icon-100-percent.svg
+      - bouillotte_et_culotte/logo.svg
     screenCenter: 
-      - valeriia/percent20.png
-      - valeriia/percent20.png
+      - bouillotte_et_culotte/symptomes.png
+      - bouillotte_et_culotte/attention.png
     screenRight:
-      -  valeriia/percent20.png
-      - valeriia/percent20.png
+      - bouillotte_et_culotte/homepage.png
+      - bouillotte_et_culotte/sources.png
+      - bouillotte_et_culotte/allie.png
+      - bouillotte_et_culotte/kit_survie.png
     assets:
-      - icon-80-percent.svg
-      - icon-80-percent.svg
   
+  learningSection:
+          - Working with 11 people starting from nothing
+          - Developping an idea from the pitch, to the UI, to the development etc...
+          - Dealing with sensitive issues by interviewing affected people (compartmentalize emotions and goals), and the target audience (adjusting to highschoolers feedback)
+
 nextProject: we_bike/
 nextProjectName: We Bike
-nextProjectthumbnail: we_bike/thumbnail_we_bike.png
+nextProjectthumbnail: we_bike/next_image.svg
 
 footer_version: sticky
 ---

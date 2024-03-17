@@ -196,9 +196,6 @@ section:nth-child(5){
           flex-direction: row;
           gap: 20px;
         }
-        img{
-          max-width: 40px;
-        }
       }
     }
     @media screen and (max-width: 600px) {
@@ -212,22 +209,11 @@ section:nth-child(5){
       & > div{
         display: flex;
         img{
-          aspect-ratio: 9/16;
-          max-width: 22%;
-        }
-      }
-      &.left{
-        max-width: 100%;
-      }
-      &.right{
-        width: 20%;
-        div img{
-          width: 34%;
-          aspect-ratio: 1 / 1;
+          aspect-ratio: 9/16 !important;
+          width: 25%;
         }
       }
     }
-      
       
   }
 }

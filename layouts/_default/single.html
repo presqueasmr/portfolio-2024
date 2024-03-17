@@ -100,6 +100,7 @@
             {{ with .Params.content.gallerySection }}
             <div class="top">
                 <div class="left-side">
+                    
                     <h3>Icons</h3>
                     <div>
                         {{ range .logo }}
@@ -125,7 +126,7 @@
                 </div>
             </div>
             <div class="bottom">
-                {{ if eq .assets " "}}
+                {{/*  {{ if eq .assets " "}}
                 <div class="assets-container left">
                     <h3>Assets</h3>
                     <div>
@@ -134,12 +135,12 @@
                         {{ end }}
                     </div>
                 </div>
-                {{ end }}
-                {{ if eq .smallAssets " "}}
+                {{ end }}  */}}
+                {{ with .assets }}
                 <div class="assets-container right">
                     <h3>Assets</h3>
                     <div>
-                        {{ range .assets }}
+                        {{ range . }}
                             <img src="{{ printf "/img/%s" . }}" alt="">
                         {{ end }}
                     </div>

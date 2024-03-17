@@ -5,12 +5,10 @@ taxonomy: 360°
 slug: raclette-sim
 dividerDate: .......................
 dividerTaxonomy: ........................
-thumbnail: raclette/thumbnail_raclette.png
+thumbnail: raclette/thumbnail.svg
 
 
-problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"
-
-
+problematic: "This project was requested by my boss as a way to learn FlutterFlow. The goal create a fun, creative raclette shopping-list app. I created this app from benchmark, to design, to development, to deploying in stores."
 
 content:
   titleSection:
@@ -19,52 +17,54 @@ content:
   - duration: 4
   thinkingSection:
     pains:
-      - Première pain
-      - Deuxième pain
-      - Troisième pain
+      - The app's goal is to be fun and engaging
+      - The algorithm should be accurate for the app to be usable
     solutions:
-      - Première soluc
-      - 2eme soluc
-      - 3eme soluc
+      - Create a sweet and simple user flow with cool assets and play on words
+      - I could have done better but the algoritms do work.
   processSection:
     - percent:
       - top:
         - icon: icon-20-percent.svg
-        - text: "Je suis le premier texte de PAPA."
-      - img: 
+        - text: "I started by getting inspiration for some assets, to get the feel, the general idea of the app. I then got to do a little benchmark. The art direction would be classical warm fast food colors (red-orange-yellow) with cartoonish drawings and thick oulines giving a retro feel to the project."
+      - img: raclette/moodboard.png
     - percent:
       - top:
         - icon: icon-50-percent.svg
-        - text: "Je suis le second texte de PAPA."
-      - img: valeriia/percent50.gif
+        - text: "The second step was to design the first screens <that I updated recently after some user tests>."
+      - img: raclette/design.svg
     - percent:
       - top:
         - icon: icon-80-percent.svg 
-        - text: "Je suis le troisième texte de PAPA."
-      - img: 
+        - text: "I then got around to developing the app with Flutterflow and create the algorithm."
+      - img: raclette/data.svg
     - percent:
       - top:
         - icon: icon-100-percent.svg 
-        - text: "Je suis le quatrieme texte de PAPA."
-      - img: 
+        - text: "Finally the hardest part was to deploy the app on the Play Store and the App Store following all the restrictions and delays."
+      - img: raclette/store.png
   gallerySection:
     logo:
-      - icon-20-percent.svg
-      - icon-50-percent.svg
-      - icon-100-percent.svg
+      - raclette/logo.svg
     screenCenter: 
-      - valeriia/percent20.png
-      - valeriia/percent20.png
+      - raclette/mockup.png
+      - raclette/design-system.svg
     screenRight:
-      -  valeriia/percent20.png
-      - valeriia/percent20.png
+      - raclette/assets_secondary.svg
+      - raclette/king_fromage.svg
+      - raclette/top.png
+      - raclette/bottom.png
     assets:
-      - icon-80-percent.svg
-      - icon-80-percent.svg
+
+  learningSection:
+      - Creating a project by myself with very little constraints
+      - Learning Flutterflow by myself in parallel with the project
+      - Drawing quickly with Illustrator
+      - Deploying an app in the stores
 
 nextProject: bogundy/
-nextProjectName: Bouillotte & Culotte
-nextProjectthumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
+nextProjectName: Bogundy
+nextProjectthumbnail: bogundy/next_image.svg
 
 footer_version: sticky
 ---
