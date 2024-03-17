@@ -1,6 +1,5 @@
 @import 'config.scss';
-@import 'list.scss';
-@import 'single.scss';
+
 
 body {
     margin: 0 auto;
@@ -148,3 +147,7 @@ body {
     bottom: 0;
     width: calc(100% - 8rem);
   }
+
+
+@import 'list.scss';
+@import 'single.scss';
