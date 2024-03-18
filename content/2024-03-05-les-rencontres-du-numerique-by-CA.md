@@ -7,6 +7,7 @@ dividerDate: ......................
 dividerTaxonomy: ..................
 thumbnail: rencontres_by_CA/thumbnail.jpg
 coverImage: rencontres_by_CA/thumbnail_detail.svg
+externalLink: https://rencontresdunumeriquebyca.com/?page=accueil
 
 
 problematic: "This project was requested by a client : The Crédit Agricole Group, to promote an event they wanted to launch in April of 2024. The ambition of the event was to spark dialog about the future & AI technology. The target audience was mainly professionnal and interested in exchanging about AI. The client wanted a clean and prestigious feel to the site"

@@ -6,7 +6,7 @@ slug: souvenirs-orphee
 dividerDate: ........................
 dividerTaxonomy: ....
 thumbnail: souvenirs_orphee/thumbnail_souvenirs_orphee.png
-
+externalLink: https://souvenirsdorphee.netlify.app/
 
 problematic: "This project was a video game project with the theme : 'Composed Past'. We chose the subject of daughter-mother relationship through a plateformer with a multiple-choice story component."
 

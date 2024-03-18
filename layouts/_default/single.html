@@ -20,8 +20,9 @@
             <h1>{{ .Title }}</h1>
         </div>
         
-        
-        <a href="" class="external-link">OPEN THE PROJECT</a>
+        {{ if .Params.externalLink }}
+            <a href="{{ .Params.externalLink }}" target='blank' class="external-link">OPEN THE PROJECT</a>
+        {{ end }}
         <div class="cover_image">
             <img src="{{ printf "/img/%s" .Params.thumbnail }}" alt="">
         </div>

@@ -7,7 +7,7 @@ dividerDate: ........................
 dividerTaxonomy: ..................
 thumbnail: valeriia/thumbnail_valeriia.png
 coverImage: rencontres_by_CA/thumbnail_detail.svg
-
+externalLink: https://drive.google.com/drive/u/0/folders/1BpzGFJxc807EmXNu2c4CwTRahNYvBWjA
 
 problematic: "This project was launched by an MMI teacher sudying 'art'ivism'. The goal raise awareness on the condition of ukranian women immigrant in France, in a small exhibition organised by the university. We chose a VR experience to immerse visitors in their eyes."
 

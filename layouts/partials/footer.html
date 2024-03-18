@@ -3,7 +3,9 @@
         <li><span>Linkedin</span></li>
         <li><span>Email</span></li>
         <li><span>Phone</span></li>
-        <a href="" class="external-link">OPEN THE PROJECT</a>
+        {{ if .Params.externalLink }}
+            <a href="{{ .Params.externalLink }}" target="blank" class="external-link">OPEN THE PROJECT</a>
+        {{ end }}
     </ul>
 {{ else }}
     <ul class="footer footer__container">

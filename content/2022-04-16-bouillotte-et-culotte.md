@@ -6,7 +6,7 @@ slug: bouillotte-et-culotte
 dividerDate: ...................
 dividerTaxonomy: ................
 thumbnail: bouillotte_et_culotte/thumbnail_bouillotte-et-culotte.png
-
+externalLink: https://www.bouillotteetculotte.fr/
 
 problematic: "The MMI Wrokshops are a 3 weeks-long hackathon that mixes all the students. The rules are : develop a concept through a site or an app and/or social media, that responds to an important SOCIAL or SOCIETAL issue. The project has to be innovating (never done before), scalable, useful and self-maintaining. We chose the subject of ENDOMETRIOSIS"
 

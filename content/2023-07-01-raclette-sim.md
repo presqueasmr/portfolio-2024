@@ -6,7 +6,7 @@ slug: raclette-sim
 dividerDate: .......................
 dividerTaxonomy: ........................
 thumbnail: raclette/thumbnail.svg
-
+externalLink: https://play.google.com/store/apps/details?id=com.mycompany.raclettesim
 
 problematic: "This project was requested by my boss as a way to learn FlutterFlow. The goal create a fun, creative raclette shopping-list app. I created this app from benchmark, to design, to development, to deploying in stores."
 
