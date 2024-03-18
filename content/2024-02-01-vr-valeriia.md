@@ -5,8 +5,8 @@ taxonomy: UX.UI DESIGN
 slug: valeriia
 dividerDate: ........................
 dividerTaxonomy: ..................
-thumbnail: valeriia/thumbnail_valeriia.png
-coverImage: rencontres_by_CA/thumbnail_detail.svg
+thumbnail: valeriia/thumbnail.jpg
+coverImage: valeriia/thumbnail.jpg
 externalLink: https://drive.google.com/drive/u/0/folders/1BpzGFJxc807EmXNu2c4CwTRahNYvBWjA
 
 problematic: "This project was launched by an MMI teacher sudying 'art'ivism'. The goal raise awareness on the condition of ukranian women immigrant in France, in a small exhibition organised by the university. We chose a VR experience to immerse visitors in their eyes."
@@ -40,12 +40,12 @@ content:
       - top:
         - icon: icon-80-percent.svg 
         - text: "A long phase of building and testing started, building the 4 scenes simontanously going mvp by mvp."
-      - img: valeriia/percent50.gif
+      - img: valeriia/creaprojetVR-min.gif
     - percent:
       - top:
         - icon: icon-100-percent.svg 
         - text: "We finally created a physical installation for the actual exhibition. With big cubes we surrounded the visitor to isolate them and mimic the debris of a bombed city and colored them in bright yellow and black to show our light and darkness message."
-      - img: valeriia/percent20.png
+      - img: valeriia/MiseenPlaceDecor-min.gif
   gallerySection:
     logo:
     screenCenter: 
