@@ -80,7 +80,7 @@ body {
     text-decoration: none;
     color: $black;
     &:hover{
-      color: #1200da;
+      color: #1D1D1D;
       
     }
   }
@@ -97,6 +97,15 @@ body {
     position: fixed;
     background-color: #F1F1F15D;
     z-index: 3;
+    color: #1d1d1aaf;
+
+    a{
+      color: #1d1d1aaf ;
+      &:hover{
+        color: #1D1D1D;
+      }
+    }
+    
 
     span{
       font-size: $p-small;
@@ -119,6 +128,7 @@ body {
       background-color: $white;
       bottom: 10px;
       left: 120px;
+      min-height:40px;
       width: calc(100vw - 240px - 2rem);
       z-index: 2;
       border-radius: 50px;
@@ -129,12 +139,18 @@ body {
         left: 20px;
         width: calc(100vw - 40px - 2rem);
         font-size: $p-small;
-        li{
-          font-size: $p-small;
-          height: 45px;
-          vertical-align: middle;
-          color: #1d1d1a8b;
+        ul{
+          li{
+            font-size: $p-small;
+            height: 45px;
+            vertical-align: middle;
+            
+            
+          }
+          
         }
+        
+        
       }
     }
       
@@ -159,18 +175,41 @@ body {
     &:hover{
       background-color: #1d1d1d08;
       transition: background-color .3s ease-out;
-      color: #1200da;
+      color: #1D1D1D;
     }
   }
 
   .header{
     border-bottom: 1px solid $black;
     top: 0;
+    @media screen and (max-width: 900px){
+      width: calc(100vw - 40px - 2rem);
+      flex-direction: column;
+      gap: 24px;
+      justify-content: center;
+    }
+    li:nth-child(2){
+      @media screen and (max-width: 900px){
+        margin-top: 12px;
+      }
+    }
   }
 
   .footer{
     border-top: 1px solid $black;
     bottom: 0;
-    
+    &__container-sticky{
+      min-height: 40px;
+      li{
+        &:last-child{
+          margin-right: 2rem;
+        }
+      }
+    }
+    @media screen and (max-width: 900px){
+      gap: 2.5rem;
+      justify-content: center;
+      width: calc(100vw - 40px - 2rem);
+    }
   }
 
