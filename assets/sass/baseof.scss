@@ -1,6 +1,15 @@
 
+body::-webkit-scrollbar{
+  display: none;
+}
+body::-webkit-scrollbar-thumb, body::-webkit-scrollbar-track{
+  background-color: #f1f1f1 !important;
+}
 
 body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     margin: 0 auto;
     padding: 0;
     font-family: sans-serif;
@@ -8,6 +17,8 @@ body {
     width: 100vw;
     background-color: #f1f1f1;
     color: $black;
+    scrollbar-width: none;
+    
   }
 
   h1, h2, h3, h4, h5, h6, p, li, ul, ol{
@@ -68,7 +79,13 @@ body {
   a{
     text-decoration: none;
     color: $black;
+    &:hover{
+      color: #1200da;
+      
+    }
   }
+
+
 
   .footer, .header{
     list-style: none;
@@ -76,7 +93,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
-    
+    width: calc(100% - 8rem);
+    position: fixed;
+    background-color: #F1F1F15D;
+    z-index: 3;
+
     span{
       font-size: $p-small;
     }
@@ -112,6 +133,7 @@ body {
           font-size: $p-small;
           height: 45px;
           vertical-align: middle;
+          color: #1d1d1a8b;
         }
       }
     }
@@ -134,16 +156,21 @@ body {
       background-image: url("/icon/external-link.svg");
       background-repeat: no-repeat;
     }
+    &:hover{
+      background-color: #1d1d1d08;
+      transition: background-color .3s ease-out;
+      color: #1200da;
+    }
   }
 
   .header{
     border-bottom: 1px solid $black;
+    top: 0;
   }
 
   .footer{
     border-top: 1px solid $black;
-    position: fixed;
     bottom: 0;
-    width: calc(100% - 8rem);
+    
   }
 
