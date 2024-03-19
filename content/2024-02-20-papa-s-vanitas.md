@@ -5,7 +5,7 @@ taxonomy: GAME DESIGN
 slug: papa-s-vanitas
 dividerDate: .......................
 dividerTaxonomy: .................
-thumbnail: papa-s-vanitas/thumbnail_papa-s-vanitas.png
+thumbnail: papa-s-vanitas/thumbnail_papa-s-vanitas.jpg
 
 
 problematic: "On the occasion of the 'Nuit Européenne des musées', the MUSBA and MMI decided to collaborate once again ! Our mission as MMI student was to create a full interface on a very large touch table. Divided in 6 groupes and a QA group, we had to create 5 different educational interactive experiences. We created the game 'Papa's Vanitas'."

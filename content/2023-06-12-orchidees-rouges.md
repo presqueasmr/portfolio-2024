@@ -5,7 +5,7 @@ taxonomy: ILLUSTRATION
 slug: 1-minute-dans-le-monde
 dividerDate: ..................
 dividerTaxonomy: ................
-thumbnail: 1min_dans_le_monde/thumbnail_1min.png
+thumbnail: 1min_dans_le_monde/thumbnail_1min.jpg
 externalLink: https://1minute.lesorchideesrouges.org/
 
 problematic: "The MMI Wrokshops are a 3 weeks-long hackathon that mixes all the students. The rules are : develop a concept through a site or an app and/or social media, that responds to an important SOCIAL or SOCIETAL issue. The project has to be innovating (never done before), scalable, useful and self-maintaining. This second year we chose to create a web novel for highschoolers for the association 'Les Orchidées Rouges' (LOR) who fight against EXCISION or FGM (Female Genital Mutilation)."
