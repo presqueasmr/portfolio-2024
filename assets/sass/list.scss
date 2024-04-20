@@ -2,6 +2,26 @@
 
 ///// DETAIL PAGE
 
+.indicator{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: calc(50% - (120px / 2));
+  bottom: 2rem;
+  font-family: $Manrope-font;
+  font-size: 14px;
+  opacity: .7;
+  &::before{
+    content: '';
+      width: 20px;
+      padding: 15px;
+      display: inline;
+      background-image: url('/icon/fi_arrow-right.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+}
+
 .project_wrapper{
   height: 80vh;
   display: flex;
